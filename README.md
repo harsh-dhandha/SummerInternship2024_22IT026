@@ -18,7 +18,7 @@ The internsip period is of 4 weeks with focus on Labs and Practical Insights to 
 - **Orientation Meeting**: Introduction to AWS and overview of the internship tasks
 - At the start of meeting I tackled questions regarding aws to know its base. Then the 1st week agenda regarding the tasks to be done was discussed. The tasks including from the start of creating an account to generating a portfolio hosted on a aws instance.
 
-![AWS Bootcamp](https://tenor.com/view/aws-gif-19699711)
+![AWS Bootcamp](https://c.tenor.com/GO7C6FD0y3YAAAAC/tenor.gif)
 
 ### **Here is the Outine of Week-1:**
 1. Create an AWS Free Tier account
