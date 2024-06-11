@@ -58,3 +58,31 @@ cd /var/www/html- to create a HTML file into directory)
 - Deployed a Personal page.html on Apache (Task 8):
 With Apache running, I deployed a simple HTML page (page.html). This involved placing the HTML file in Apache’s root directory and configuring the server to serve this page. Deploying the HTML page allowed me to create a personal webpage accessible over the internet via the EC2 instance's public IP address.
 
+### Day 3: Developing the Portfolio Website
+⟢ Creating the Portfolio Structure:
+- I started by setting up the basic structure of my portfolio using HTML, CSS, and JavaScript. This included defining the HTML elements for each section of the portfolio such as Home, About, Projects, and Contact.
+- Implemented a responsive design using CSS to ensure the website looks great on both mobile and desktop devices. The design was developed with a Mobile First methodology, optimizing for smaller screens before scaling up to larger ones.
+
+⟢ Adding Animations and Smooth Scrolling:
+- Integrated animations that trigger on scrolling to add a dynamic and engaging feel to the website. These animations make the content appear smoothly as the user scrolls through each section.
+- Implemented smooth scrolling to enhance the user experience, allowing seamless navigation between sections when clicking on navigation links.
+
+### Day 4: Enhancing the Portfolio with Themes and Contact Functionality
+⟢ Dark & Light Theme:
+- Added functionality to toggle between dark and light themes, giving users the option to switch based on their preference. This involved creating two sets of CSS variables and JavaScript to handle the theme switching.
+  
+⟢ Contact Section and Email Sending:
+- Developed the Contact section with a form that allows users to send emails directly from the website. Implemented email sending functionality using a JavaScript library such as EmailJS, which connects the form inputs to an email service.
+- Ensured that the contact form is fully functional and user-friendly, with input validation and feedback messages to inform users of successful or failed submissions.
+
+### Day 5: Configuration and Final Touchup
+⟢ Configuring Security Group for Apache (Task 9):
+- Set up the Security Group for the EC2 instance to allow HTTP traffic on port 80. This involved adding an inbound rule to ensure the Apache server is accessible from the internet.
+⟢ Verifying the Configuration (Task 10):
+ -Tested the setup by accessing the personal webpage hosted on the EC2 instance. Using the instance's public IP address, I confirmed that the Apache server was correctly serving the webpage, validating the successful configuration.
+
+-Finalized Project:
+Access the personal portfolio webpage [here](http://13.211.222.144/page.html)
+
+## Additional Resources:
+We were provided with a repository containing basic documentation of AWS services, which can be a valuable resource for anyone learning about AWS: [AWS Services Cheatsheet](https://github.com/hamidgholami/accp-cheatsheet).
