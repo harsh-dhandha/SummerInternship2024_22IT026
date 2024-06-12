@@ -86,3 +86,35 @@ Access the personal portfolio webpage [here](http://13.211.222.144/page.html)
 
 ## Additional Resources:
 We were provided with a repository containing basic documentation of AWS services, which can be a valuable resource for anyone learning about AWS: [AWS Services Cheatsheet](https://github.com/hamidgholami/accp-cheatsheet).
+
+
+## 2️⃣ Week 2
+### *4th June 2024*
+- *Orientation Meeting*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
+- In the start of meeting we were asked rapid questions regarding week 1 tasks .
+
+### *Here is the Outine of Week-2:*
+1. Create a Bucket
+2. Make it private
+3. Upload files
+4. Encrypt the files
+5. Create a Distribution 
+6. Integrate it with S3
+7. Create a new KMS Key
+8. Change the Default Key for your bucket to this new key
+9. Find out these events and logs for them in Cloudtrail
+10. Shutdown the EC2 instance we created in first week
+
+## 📝 Day-by-Day Progress
+
+### Day 1: Launching into Amazon S3
+- Today, I kicked off my exploration of Amazon S3! This powerful cloud storage service lets me store anything from vacation photos to critical business data.
+
+⟢ Created a new S3 bucket:
+- I started by creating a new Amazon S3 bucket. Think of it as a secure vault in the cloud, designed to hold all my important files. No more bulky hard drives – with S3, I can access my data from anywhere with an internet connection.
+ 
+⟢ Set the bucket's permissions to private:
+- Security is a top priority, so I configured the bucket to be private. This ensures that only authorized users can access the files I store inside. It's like having a personal safe deposit box in the cloud!
+  
+⟢ Uploaded files to the bucket:
+- To get comfortable with S3, I uploaded some files to the bucket. This helped me understand how to upload data and test the access permissions I set.
