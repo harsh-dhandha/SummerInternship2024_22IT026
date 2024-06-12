@@ -90,8 +90,11 @@ We were provided with a repository containing basic documentation of AWS service
 
 ## 2️⃣ Week 2
 ### *4th June 2024*
-- *Orientation Meeting*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
+- *Online Session*: Learning about storage and S3 with its related services ,also swictching from EC2 to S3
 - In the start of meeting we were asked rapid questions regarding week 1 tasks .
+![AWS CLoudfront](https://miro.medium.com/v2/resize:fit:438/1*NiUh40Qs3iyzA4h30sr5SA.png)
+
+
 
 ### *Here is the Outine of Week-2:*
 1. Create a Bucket
@@ -110,11 +113,23 @@ We were provided with a repository containing basic documentation of AWS service
 ### Day 1: Launching into Amazon S3
 - Today, I kicked off my exploration of Amazon S3! This powerful cloud storage service lets me store anything from vacation photos to critical business data.
 
-⟢ Created a new S3 bucket:
+⟢ *Created a new S3 bucket*:
 - I started by creating a new Amazon S3 bucket. Think of it as a secure vault in the cloud, designed to hold all my important files. No more bulky hard drives – with S3, I can access my data from anywhere with an internet connection.
  
-⟢ Set the bucket's permissions to private:
+⟢ *Set the bucket's permissions to private*:
 - Security is a top priority, so I configured the bucket to be private. This ensures that only authorized users can access the files I store inside. It's like having a personal safe deposit box in the cloud!
   
-⟢ Uploaded files to the bucket:
+⟢ *Uploaded files to the bucket*:
 - To get comfortable with S3, I uploaded some files to the bucket. This helped me understand how to upload data and test the access permissions I set.
+
+### Day 2: Level Up Security and Speed with S3
+- Today, I focused on making my S3 bucket even more secure and improving how content is delivered.
+
+⟢ *Enabled encryption for the uploaded files*:
+- First, I enabled server-side encryption for all the files stored in the bucket. This adds an extra layer of protection by scrambling the data before it's saved. It's like having a combination lock on your cloud vault – even if someone gains access, they won't be able to decrypt the files without the key!
+
+⟢ *Created a CloudFront distribution and integrated it with the S3 bucket*:
+- Next, I created a CloudFront distribution and linked it to my S3 bucket. CloudFront is a super-fast content delivery network from AWS that ensures users can access my files quickly and reliably, no matter where they are in the world. Imagine having multiple copies of your data stored around the globe – CloudFront delivers the closest copy to users, so they experience blazing-fast download speeds.
+- CDN(Content Delivery Network) --
+
+   <img src="https://d1.awsstatic.com/products/cloudfront/product-page-diagram_CloudFront_HIW.475cd71e52ebbb9acbe55fd1b242c75ebb619a2e.png" width="550" height="300"/>
