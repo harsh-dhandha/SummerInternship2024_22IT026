@@ -133,3 +133,16 @@ We were provided with a repository containing basic documentation of AWS service
 - CDN(Content Delivery Network) --
 
    <img src="https://d1.awsstatic.com/products/cloudfront/product-page-diagram_CloudFront_HIW.475cd71e52ebbb9acbe55fd1b242c75ebb619a2e.png" width="550" height="300"/>
+   
+### Day 3: Dialing in Security and Monitoring for My S3 Bucket
+⟢ *Building a Secure Key Vault*: 
+- I created a new key using AWS Key Management Service (KMS). Think of KMS as a secure vault specifically designed to manage and protect encryption keys. This centralized approach ensures even tighter control over how my data is encrypted.
+
+⟢ *Upgrading Encryption with KMS*:  
+- I configured my S3 bucket to use the new KMS key for encryption by default. Now, any new files uploaded to the bucket will be automatically encrypted using the KMS key, adding an extra layer of security.
+
+⟢ *Keeping a Close Eye with CloudTrail*:
+- To monitor activity around my S3 bucket and other AWS services, I started using CloudTrail. CloudTrail acts like a digital logbook, recording all API calls and user actions. This provides valuable insights for security analysis and helps ensure compliance with regulations.
+
+⟢ *Smart Resource Management*:
+- Finally, to optimize costs and avoid unnecessary charges, I shut down the EC2 instance I created in Week 1. This demonstrates the importance of managing resources effectively in the cloud.
