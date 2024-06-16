@@ -150,9 +150,12 @@ We were provided with a repository containing basic documentation of AWS service
 #### In next two days we exlpored different services( just learning ) -
 
 ### Day 4: Unveiling the Power of AWS Athena
-⟢ *Unleashing the Power of SQL Queries*: I explored the vast potential of SQL queries in Athena. It's like having a magic key that lets me analyze and extract insights from my S3 data with ease. Athena understands a wide range of SQL queries, making it a powerful tool for data exploration.
+⟢ *Unleashing the Power of SQL Queries*: 
+- I explored the vast potential of SQL queries in Athena. It's like having a magic key that lets me analyze and extract insights from my S3 data with ease. Athena understands a wide range of SQL queries, making it a powerful tool for data exploration.
 
-⟢ *Optimizing Performance with Data Partitioning*:  I investigated data partitioning strategies and how they can significantly improve query performance in Athena. Partitioning essentially organizes data into smaller chunks, making it faster for Athena to find the specific information you need. This can also lead to cost savings as you only pay for the data that's being queried.
+⟢ *Optimizing Performance with Data Partitioning*:  
+- I investigated data partitioning strategies and how they can significantly improve query performance in Athena. Partitioning essentially organizes data into smaller chunks, making it faster for Athena to find the specific information you need. This can also lead to cost savings as you only pay for the data that's being queried.
 
-⟢ *Simplifying Data Discovery with Glue Data Catalog*:  I learned about AWS Glue Data Catalog, a central hub for organizing and managing metadata related to your data in S3. By integrating Athena with Glue Data Catalog, I can easily search and query my S3 data.
+⟢ *Simplifying Data Discovery with Glue Data Catalog*: 
+- I learned about AWS Glue Data Catalog, a central hub for organizing and managing metadata related to your data in S3. By integrating Athena with Glue Data Catalog, I can easily search and query my S3 data.
 
