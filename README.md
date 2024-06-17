@@ -159,3 +159,13 @@ We were provided with a repository containing basic documentation of AWS service
 ⟢ *Simplifying Data Discovery with Glue Data Catalog*: 
 - I learned about AWS Glue Data Catalog, a central hub for organizing and managing metadata related to your data in S3. By integrating Athena with Glue Data Catalog, I can easily search and query my S3 data.
 
+### Day 5: Building Data Pipelines with Glue and Step Functions
+
+⟢ *Automating Data Flow with AWS Glue*:
+- I delved into AWS Glue, a powerful service that automates the entire ETL (Extract, Transform, Load) process. Glue can pull data from various sources, transform it according to my needs, and then load it into destinations like Athena for analysis.
+
+⟢ *Orchestrating Workflows with Step Functions*:
+- I learned about AWS Step Functions, a service that acts like a conductor for multiple AWS services. Step Functions allows me to build serverless workflows that seamlessly connect services like Glue and Athena. Imagine Step Functions as the conductor, coordinating different services to work together in perfect harmony.
+
+⟢ *Building Resilient Workflows*: 
+- Finally, I reviewed best practices for handling errors in Step Functions workflows. Just like any complex system, things don't always go according to plan. By implementing proper error handling, I can ensure my workflows are resilient and can recover from unexpected issues, making my data pipelines more robust.
