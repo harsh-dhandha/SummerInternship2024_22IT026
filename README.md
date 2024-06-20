@@ -169,3 +169,27 @@ We were provided with a repository containing basic documentation of AWS service
 
 ⟢ *Building Resilient Workflows*: 
 - Finally, I reviewed best practices for handling errors in Step Functions workflows. Just like any complex system, things don't always go according to plan. By implementing proper error handling, I can ensure my workflows are resilient and can recover from unexpected issues, making my data pipelines more robust.
+
+## 3️⃣ Week 3
+### *11th June 2024*
+- *Online Session*: Introduction to AWS DynamoDB, API Gateway, and Lambda Functions
+- This week focused on building a serverless backend using AWS services like DynamoDB, API Gateway, and Lambda Functions. The project involved creating CRUD APIs for managing items in a DynamoDB table.
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Lr6Hf676--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iimpyc8ndm7vnn6arhp3.gif" width="650" height="300" alt="AWS Apigateway+lambda+Db"/>
+
+### *Here is the Outine of Week-3:*
+- Project - CRUD APIs for retrieving and updating items in DB 
+1. Create a table in DynamoDB
+2. Write a Lambda Function as a Backend 
+3. Configure API Endpoints on API GATEWay
+4. Get /items
+5. Put /items
+6. Get /items/{id}
+7. Delete /items/{id}
+8. Configure API Endpoints with Lambda Code
+9. Test Out APIs through Curl and Browser.
+
+## 📝 Day-by-Day Progress
+
+### Day 1: Setting Up DynamoDB
+⟢ *Creating a DynamoDB Table*:
+-Created a new table in Amazon DynamoDB, a fast and flexible NoSQL database service designed for applications requiring consistent, single-digit millisecond latency at any scale. Configured the table with a primary key and necessary attributes to efficiently store item data.
