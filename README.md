@@ -192,4 +192,8 @@ We were provided with a repository containing basic documentation of AWS service
 
 ### Day 1: Setting Up DynamoDB
 ⟢ *Creating a DynamoDB Table*:
--Created a new table in Amazon DynamoDB, a fast and flexible NoSQL database service designed for applications requiring consistent, single-digit millisecond latency at any scale. Configured the table with a primary key and necessary attributes to efficiently store item data.
+- Created a new table in Amazon DynamoDB, a fast and flexible NoSQL database service designed for applications requiring consistent, single-digit millisecond latency at any scale. Configured the table with a primary key and necessary attributes to efficiently store item data.
+
+### Day 2: Developing Lambda Functions
+⟢ *Writing Lambda Functions*:
+- Developed a Lambda function in Python to serve as the backend logic for CRUD operations. AWS Lambda allows you to run code without provisioning or managing servers. The function included logic to interact with DynamoDB for operations such as retrieving, inserting, updating, and deleting items.
