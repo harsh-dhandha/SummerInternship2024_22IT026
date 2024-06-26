@@ -197,3 +197,7 @@ We were provided with a repository containing basic documentation of AWS service
 ### Day 2: Developing Lambda Functions
 ⟢ *Writing Lambda Functions*:
 - Developed a Lambda function in Python to serve as the backend logic for CRUD operations. AWS Lambda allows you to run code without provisioning or managing servers. The function included logic to interact with DynamoDB for operations such as retrieving, inserting, updating, and deleting items.
+
+### Day 3: Configuring API Gateway
+⟢ *Exposing the Backend as APIs*: 
+- I configured API Gateway, a powerful service from AWS that lets me create APIs to access my backend functionality. With API Gateway, I can expose my Lambda functions as RESTful APIs, making them accessible to the outside world.
