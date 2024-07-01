@@ -201,3 +201,16 @@ We were provided with a repository containing basic documentation of AWS service
 ### Day 3: Configuring API Gateway
 ⟢ *Exposing the Backend as APIs*: 
 - I configured API Gateway, a powerful service from AWS that lets me create APIs to access my backend functionality. With API Gateway, I can expose my Lambda functions as RESTful APIs, making them accessible to the outside world.
+
+### Day 4: Implementing CRUD Operations
+⟢ *Building the Get All Endpoint (GET /items)*:  
+- I configured an API endpoint that retrieves all items stored in our DynamoDB table. When a user sends a GET request to this endpoint, the Lambda function kicks in, fetches all the items, and returns them in the response.
+
+⟢ *Building the Create Item Endpoint (PUT /items)*: 
+- Next, I created an endpoint that allows users to add new items to the DynamoDB table.  This endpoint interacts with the Lambda function, which processes the incoming request and inserts the new item into the table.
+
+⟢ *Building the Get Item Endpoint (GET /items/{id})*: 
+- I then implemented an endpoint that retrieves a specific item based on its unique ID.  The Lambda function uses the ID parameter to query DynamoDB and return the requested item.
+
+⟢ *Building the Delete Item Endpoint (DELETE /items/{id})*: 
+- Finally, I configured an endpoint for deleting items from the DynamoDB table. The Lambda function handles the deletion process and ensures the item is removed based on the provided ID.
