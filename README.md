@@ -214,3 +214,8 @@ We were provided with a repository containing basic documentation of AWS service
 
 ⟢ *Building the Delete Item Endpoint (DELETE /items/{id})*: 
 - Finally, I configured an endpoint for deleting items from the DynamoDB table. The Lambda function handles the deletion process and ensures the item is removed based on the provided ID.
+
+### Day 5: Learning About Enhancing User Experience
+⟢ *User Authentication*: Learned how to integrate AWS Cognito for user authentication, understanding how it secures API endpoints and ensures that only authorized users can access the data.
+
+⟢ *Performance Testing*: Studied performance testing techniques to ensure applications handle high traffic smoothly, and explored ways to optimize Lambda functions for faster response times.
