@@ -261,8 +261,15 @@ We were provided with a repository containing basic documentation of AWS service
 
 ### Day 3: Creating an Interactive Agent:
 
-*Building the Agent* 
+⟢ *Building the Agent* 
 - We developed an agent within the Bedrock environment. This agent acts as the intermediary, facilitating communication between you and the knowledge base.
 
-*Connecting with the Knowledge Base*
+⟢ *Connecting with the Knowledge Base*
 - We linked the agent with the Bedrock knowledge base, empowering it to access and retrieve information related to your resume.
+
+### Day 4: Interacting with Your Resume
+⟢ *Querying for Information*
+- We explored how to interact with your resume data through the agent. This involved posing questions and retrieving specific details about your experience and skills, showcasing the functionality of the entire system.
+
+⟢ *Generating Customized Summaries*
+- We learned how to generate customized summaries of your resume based on specific criteria, such as job requirements or industry standards, to tailor your application for different roles.
