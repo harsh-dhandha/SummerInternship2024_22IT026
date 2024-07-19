@@ -240,6 +240,7 @@ We were provided with a repository containing basic documentation of AWS service
 10.	Create an Agent
 11.	Connect it with Knowledge base
 12.	Interact with your resume
+13.	Support Case to AWS
 
 ## 📝 Day-by-Day Progress
 
@@ -273,3 +274,20 @@ We were provided with a repository containing basic documentation of AWS service
 
 ⟢ *Generating Customized Summaries*
 - We learned how to generate customized summaries of your resume based on specific criteria, such as job requirements or industry standards, to tailor your application for different roles.
+
+### Day 5: Support Case to AWS
+
+⟢ *Creating a Support Case:*
+- We initiated a support case with AWS to resolve a technical issue encountered during our project. This involved navigating the AWS Support Center, selecting the appropriate support plan, and providing detailed information about the Our Cost related Billing issue.
+  
+⟢ *Collaborating with AWS Support:*
+- Worked closely with AWS support engineers to diagnose and address the problem, such as shutting down the services which were charging for the billing. This interaction not only helped in resolving the issue but also provided insights into troubleshooting techniques and best practices for using AWS services effectively. Also Checked logs how and which services are active where , on which region and do they cost you any charge or not. 
+  
+⟢ *Implementing Solutions:*
+- After receiving guidance from AWS support, we implemented the recommended solutions and performed thorough testing to ensure the issue was fully resolved. This step reinforced the importance of utilizing AWS support resources to maintain a smooth and efficient workflow.
+
+
+
+
+
+
