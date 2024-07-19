@@ -219,3 +219,35 @@ We were provided with a repository containing basic documentation of AWS service
 ⟢ *User Authentication*: Learned how to integrate AWS Cognito for user authentication, understanding how it secures API endpoints and ensures that only authorized users can access the data.
 
 ⟢ *Performance Testing*: Studied performance testing techniques to ensure applications handle high traffic smoothly, and explored ways to optimize Lambda functions for faster response times.
+
+## 4️⃣ Week 4: Building HR Chatbot using AMAZON BEDROCK
+### *June 19th, 2024*
+
+- *Online Session* : This week, we dove into the exciting world of AWS Bedrock! We explored how to build a knowledge base around your resume, enabling efficient retrieval and interaction with your professional information.
+
+<img src="https://github.com/user-attachments/assets/f55a35da-9fee-48b6-a317-16e700265262" width="350" height="250" alt="Amazon Bedrock"/>
+
+### Here is the Outline of Week-4:
+1.	Create a IAM User
+2.	Log into IAM User
+3.	Create a Bucket
+4.	Upload Resume
+5.	Create Knowledge Base in BedRock
+6.	Link S3 Bucket Object (Resume) with this Knowlege base
+7.	Create Vector Store using Embeddings and Data Source
+8.	Test Knowledge base using Generate Responses
+9.	Test Knowledge base with out using Generate Response
+10.	Create an Agent
+11.	Connect it with Knowledge base
+12.	Interact with your resume
+
+## 📝 Day-by-Day Progress
+
+### Day 1: Building the Foundation and Crafting the Knowledge Base
+
+⟢ *Creating an S3 Bucket and Uploading Your Resume*
+- We kicked things off by setting up a secure storage location in Amazon S3 for your resume, a powerful object storage service that scales effortlessly. Uploading your resume to the S3 bucket linked it to the Bedrock knowledge base, providing the core data source.
+
+⟢ *Creating a Knowledge Base in Bedrock*
+- We explored the power of AWS Bedrock and created a knowledge base specifically designed to understand your resume. By linking the Bedrock knowledge base with the S3 bucket containing your resume, we established a bridge that makes your resume data readily accessible for processing and retrieval.
+
