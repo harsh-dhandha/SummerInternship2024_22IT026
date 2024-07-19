@@ -253,9 +253,16 @@ We were provided with a repository containing basic documentation of AWS service
 
 ### Day 2: Building and Testing the Vector Store
 
-⟢ *Building a Vector Store 
+⟢ *Building a Vector Store* 
 - To ensure lightning-fast information retrieval, we created a vector store using embeddings. This process essentially transforms your resume data into a format that facilitates quick searches within Bedrock.
 
-⟢ *Testing the Knowledge Base
+⟢ *Testing the Knowledge Base*
 - We put the knowledge base to the test! Using the "Generate Responses" feature, we confirmed that Bedrock accurately understands and retrieves information from your resume. We also conducted additional tests to ensure the system can handle direct queries for specific details.
 
+### Day 3: Creating an Interactive Agent:
+
+*Building the Agent* 
+- We developed an agent within the Bedrock environment. This agent acts as the intermediary, facilitating communication between you and the knowledge base.
+
+*Connecting with the Knowledge Base*
+- We linked the agent with the Bedrock knowledge base, empowering it to access and retrieve information related to your resume.
