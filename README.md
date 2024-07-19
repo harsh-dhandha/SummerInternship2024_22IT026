@@ -84,6 +84,17 @@ With Apache running, I deployed a simple HTML page (page.html). This involved pl
 -Finalized Project:
 Access the personal portfolio webpage [here](http://13.211.222.144/page.html)
 
+ ## 🛠️ Tools and Technologies
+
+- **Amazon Web Services (AWS)**
+  - EC2
+  - AWS Console
+  - Billing and Cost Management
+  - Security Groups
+- **Apache Web Server**
+- **Linux Commands**
+- **HTML**
+
 ## Additional Resources:
 We were provided with a repository containing basic documentation of AWS services, which can be a valuable resource for anyone learning about AWS: [AWS Services Cheatsheet](https://github.com/hamidgholami/accp-cheatsheet).
 
@@ -170,6 +181,19 @@ We were provided with a repository containing basic documentation of AWS service
 ⟢ *Building Resilient Workflows*: 
 - Finally, I reviewed best practices for handling errors in Step Functions workflows. Just like any complex system, things don't always go according to plan. By implementing proper error handling, I can ensure my workflows are resilient and can recover from unexpected issues, making my data pipelines more robust.
 
+  ## 🛠️ Tools and Technologies
+
+- **Amazon Web Services (AWS)**
+  - S3 (Simple Storage Service)
+  - CloudFront
+  - KMS (Key Management Service)
+  - CloudTrail
+  - EC2
+  - Athena
+  - Glue
+  - Step Functions
+- **Linux Commands**
+
 ## 3️⃣ Week 3
 ### *11th June 2024*
 - *Online Session*: Introduction to AWS DynamoDB, API Gateway, and Lambda Functions
@@ -219,6 +243,17 @@ We were provided with a repository containing basic documentation of AWS service
 ⟢ *User Authentication*: Learned how to integrate AWS Cognito for user authentication, understanding how it secures API endpoints and ensures that only authorized users can access the data.
 
 ⟢ *Performance Testing*: Studied performance testing techniques to ensure applications handle high traffic smoothly, and explored ways to optimize Lambda functions for faster response times.
+
+## 🛠️ Tools and Technologies
+
+- **Amazon Web Services (AWS)**
+  - DynamoDB
+  - Lambda
+  - API Gateway
+- **Linux Commands**
+- **Javascript**
+- **HTML**
+
 
 ## 4️⃣ Week 4: Building HR Chatbot using AMAZON BEDROCK
 ### *June 19th, 2024*
@@ -285,6 +320,58 @@ We were provided with a repository containing basic documentation of AWS service
   
 ⟢ *Implementing Solutions:*
 - After receiving guidance from AWS support, we implemented the recommended solutions and performed thorough testing to ensure the issue was fully resolved. This step reinforced the importance of utilizing AWS support resources to maintain a smooth and efficient workflow.
+
+## 🛠️ Tools and Technologies
+
+- **Amazon Web Services (AWS)**
+  - IAM
+  - S3
+  - Bedrock
+  - KMS
+  - CloudTrail
+- **Linux Commands**
+
+
+## 🏁 Conclusion
+
+#### The AWS Summer Internship 2024 was an enriching experience, blending theory with hands-on practice. Over the past four weeks, I’ve explored key AWS services, from EC2 and S3 to DynamoDB and Bedrock, gaining valuable skills and insights. Each project, from setting up EC2 instances to creating serverless applications and interactive chatbots, enhanced my understanding of cloud technology. This journey has been both challenging and rewarding, and I’m excited to carry forward the knowledge and skills I’ve gained into future endeavors.
+
+## 📈 Badges
+
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-orange)
+![Apache Web Server](https://img.shields.io/badge/Apache-Web%20Server-blue)
+![HTML](https://img.shields.io/badge/HTML-5-green)
+![Linux Command Line](https://img.shields.io/badge/Linux-Command%20Line-yellow)
+![AWS S3](https://img.shields.io/badge/AWS-S3-orange)
+![AWS CloudFront](https://img.shields.io/badge/AWS-CloudFront-orange)
+![AWS KMS](https://img.shields.io/badge/AWS-KMS-orange)
+![AWS CloudTrail](https://img.shields.io/badge/AWS-CloudTrail-orange)
+![AWS Athena](https://img.shields.io/badge/AWS-Athena-orange)
+![AWS Glue](https://img.shields.io/badge/AWS-Glue-orange)
+![AWS Step Functions](https://img.shields.io/badge/AWS-Step%20Functions-orange)
+![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-orange)
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-green)
+![API Gateway](https://img.shields.io/badge/API%20Gateway-Configuration-blue)
+![AWS IAM](https://img.shields.io/badge/AWS-IAM-blue)
+![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-lightgrey)
+
+## 🤝 Connect with Me
+
+- LinkedIn: [Harsh Dhandha](https://www.linkedin.com/in/harsh-dhandha-332b76256/)
+- Email: [Email](mailto:dhandhaharsh46@gmail.com)
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Thank you for visiting this! Feel free to reach out if you have any questions or feedback.* ✨
+
+
+
+
+
 
 
 
