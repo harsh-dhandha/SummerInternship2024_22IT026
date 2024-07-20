@@ -360,10 +360,6 @@ We were provided with a repository containing basic documentation of AWS service
 - LinkedIn: [Harsh Dhandha](https://www.linkedin.com/in/harsh-dhandha-332b76256/)
 - Email: [Email](mailto:dhandhaharsh46@gmail.com)
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 *Thank you for visiting this! Feel free to reach out if you have any questions or feedback.* ✨
